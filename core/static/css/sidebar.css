@@ -1,0 +1,39 @@
+.app-header__logo {
+	display:none
+}
+
+.sidebar-mobile-open .app-sidebar {
+	transform:translateX(0)
+}
+
+.sidebar-mobile-open .app-sidebar .app-sidebar__inner .app-sidebar__heading {
+	text-indent:initial
+}
+
+.sidebar-mobile-open .app-sidebar .app-sidebar__inner .app-sidebar__heading::before {
+	display:none
+}
+
+.sidebar-mobile-open .app-sidebar .app-sidebar__inner ul li a {
+	text-indent:initial;padding:0 1.5rem 0 45px
+}
+
+.sidebar-mobile-open .app-sidebar .app-sidebar__inner .metismenu-icon {
+	text-indent:initial;left:5px;margin-left:0
+}
+
+.sidebar-mobile-open .app-sidebar .app-sidebar__inner .metismenu-state-icon {
+	visibility:visible
+}
+
+.sidebar-mobile-open .app-sidebar .app-sidebar__inner ul::before {
+	display:block
+}
+
+.sidebar-mobile-open .app-sidebar  .app-sidebar__inner ul ul li a{
+	padding-left:1em
+}
+
+body{
+	background: #333;
+}
